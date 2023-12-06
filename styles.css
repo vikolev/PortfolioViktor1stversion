@@ -1,0 +1,155 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:monospace;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+    color: #9fd3c7;
+}
+
+section#home {
+    background-color: #385170;
+    color: #333;
+    text-align: center;
+}
+
+section#about\ me {
+    background-color: #142d4c;
+    text-align: center;
+    padding: 1px;
+}
+
+section#about\ me img {
+    max-width: 200px; 
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; 
+}
+
+.about {
+    padding: 22px;
+}
+
+.line1 {
+    height: 1px;
+    background-color: white;
+}
+
+.line2 {
+    height: 1px;
+    background-color: white;
+}
+
+section#my\ work {
+    background-color: #e5e5e5;
+    text-align: center;
+    background-color: #142d4c;
+    margin: 0px;
+    padding: 1px;
+}
+
+.my\ work {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.worktextpizza {
+    flex: 0 0 100%;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.my\ work img {
+    max-width: 50px; 
+    height: auto;
+    border-radius: 10px; 
+    margin: 10px; 
+    display:inline-flex;
+}
+
+section#contact {
+    background-color:#142d4c;   
+    padding: 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+button {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:orange;
+}
+
+footer {
+    background-color: #385170;
+    color: #9fd3c7;
+    padding: 10px;
+    text-align: center;
+}
+
+.contactinfo {
+    margin-top: 20px;
+}
+
+.gmail,
+.phone {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.gmailtext,
+.number {
+    display: inline-block;
+    vertical-align: middle;
+}
