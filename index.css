@@ -894,11 +894,11 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 #outcomes .left_outcomes {
-    border-right: 1px solid red;
+    border-right: 1px solid #69110d
 }
 
 #outcomes .right_outcomes {
-    border-left: 1px solid red;
+    border-left: 1px solid #69110d
 }
 
 #outcomes .placeholder {
@@ -915,4 +915,39 @@ body:not(.user-is-tabbing) a:focus {
     max-width: 300px;
     height: auto;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #outcomes {
+        flex-direction: column;
+    }
+
+    #outcomes .left_outcomes,
+    #outcomes .right_outcomes {
+        border: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #outcomes .left_outcomes,
+    #outcomes .right_outcomes {
+        flex: 0 0 100%;
+    }
+
+    #outcomes .left_outcomes,
+    #outcomes .right_outcomes {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .outcomes_title h3 {
+        font-size: 36px;
+    }
+
+    #outcomes .placeholder p {
+        padding: 0 10px;
+    }
 }
