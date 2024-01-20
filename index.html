@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="images/websitelogo.png" />
+
+  <title>Personal Portfolio of Viktor</title>
+
+  <link rel="stylesheet" href="index.css" />
+  
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="technical_outcomes.html" class="nav__link">Technical Outcomes</a></li>
+          <li class="nav__item"><a href="professional_outcomes.html" class="nav__link">Professional Outcomes</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Viktor Kolev</span>
+        </h1>
+        <p>A Web Developer in the making based in Eindhoven.</p>
+      </div>
+    </div>
+  </header>
+
+   <!-- ***** About ***** -->
+
+  <main role="main">
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              <div class="name age"> Thanks for your interest! My name is Viktor Kolev, I am 20 years old, born on 20th February 2003. </div>
+              <div class="edu">
+                 <br> 
+                  <ul>
+                    <li>Previous Education - First Language School (Varna, Bulgaria)</li>
+                    <li>Current Education - Fontys University of Applied sciences/ ICT and Media Design (Eindhoven)</li>
+                  </ul>
+                </div>
+                <br>
+                  As a hobby I play the drums. I have a rock band which is called "Sindeed". On the pictures, you will see memories from one of our many travels. We earned a lot of prizes for our performances and got to meet many people, which helped us increase our Popularity!
+            </p>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="images/vikipic2.PNG" alt="Viktor Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+<section>
+    <div id="slider-container">
+      <div id="slider">
+          <div class="slide">
+              <img src="images/slideshow1.jpg" alt="Group Image 1">
+              <div class="text"></div>
+          </div>
+          <div class="slide">
+              <img src="images/slideshow2.jpg" alt="Group Image 2">
+              <div class="text"></div>
+          </div>
+          <div class="slide">
+              <img src="images/slideshow3.jpg" alt="Group image 3">
+              <div class="text"></div>
+          </div>
+         
+      </div>
+  
+  
+      <div id="prev" onclick="prevSlide">&#10094;</div>
+      <div id="next" onclick="nextSlide">&#10095;</div>
+    </div>
+</section>
+  
+ 
+</main>
+
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+        
+            <!-- Grid for photos -->
+<div class="row2"> 
+  <div class="column">
+    <div class="container">
+      <div class="image">
+        <a href="project1.html">
+          <img src="images/firstwebsite.PNG" style="width:100%" alt="First Website">
+          <div class="overlay">
+            <div class="text">Viktor's First Website</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="image">
+        <a href="project2.html">
+          <img src="images/groupprojectpizza.PNG" style="width:100%" alt="Pizzeria Project">
+          <div class="overlay">
+            <div class="text">Group Project Pizzeria</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="image">
+        <a href="project3.html">
+          <img src="images/groupprojectnew1.PNG" style="width:100%" alt="Group Project">
+          <div class="overlay">
+            <div class="text">Group Project Website</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="container">
+      <div class="image">
+        <a href="project3.html">
+          <img src="images/groupprojectnew2.PNG" style="width:100%" alt="Group Project">
+          <div class="overlay">
+            <div class="text">Group Project Website</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="image">
+        <a href="project2.html">
+          <img src="images/portfoliopic1.jpg" style="width:100%" alt="Pizzeria Project">
+          <div class="overlay">
+            <div class="text">Group Project Pizzeria</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="image">
+        <a href="project1.html">
+          <img src="images/firstwebsitepic2.PNG" style="width:100%" alt="First Website">
+          <div class="overlay">
+            <div class="text">Viktor's First Website</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contact me</h2>
+      <div class="contact__info">
+        <p>
+        Below you can find my email, if you want to contact me at any time!
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:you@example.com" class="btn">vikolev@abv.bg</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+      <footer role="contentinfo" class="footer">
+                    <div class="rounded-social-buttons">
+                        <a class="social-button facebook" href="https://www.facebook.com/profile.php?id=100006458766501" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-button youtube" href="https://www.youtube.com/@sindeed6451" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="social-button instagram" href="https://www.instagram.com/vikikolev/?hl=bg" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+      </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+
+  <script src="./index.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
